@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B02AC501-BAFE-C0C4-5F24-23057759F014" name="Relation_4">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Partido_codigo" id="64E1135A-090D-0E98-4755-E7F0AD6944F5">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78011F9F-58D4-9818-5459-DCF70273A405" referredColumn="17D70D86-26DA-76EC-75C0-33C385A9F4D6"/>
+</associations>
+</Column>
+<Column name="Equipo_codigo" id="55CAAACE-6118-D3BC-4AA0-6D12D3B59624">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3F914D3-0391-1C21-3424-7A2901B1B4C6" referredColumn="184DD08E-62A5-FE51-20D7-32E93CF93955"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAC805CD-C871-1CF2-6844-C1FFB43709F2" name="Relation_4_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64E1135A-090D-0E98-4755-E7F0AD6944F5"/>
+<colUsage columnID="55CAAACE-6118-D3BC-4AA0-6D12D3B59624"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FE49750-E880-7A8D-DA90-17E8EC4FAA41" name="Relation_4_Partido_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<generatorID>9D970ACB-6709-EE7B-5680-AAD19FB11D0D</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64E1135A-090D-0E98-4755-E7F0AD6944F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB6EEE29-E91D-4DB6-74B9-9A3C0A34D752" name="Relation_4_Equipo_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<generatorID>9D970ACB-6709-EE7B-5680-AAD19FB11D0D</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55CAAACE-6118-D3BC-4AA0-6D12D3B59624"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

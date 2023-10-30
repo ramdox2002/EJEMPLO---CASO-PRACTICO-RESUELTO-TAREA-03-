@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05CB8328-4875-4711-1546-251B08A86B41" name="Control">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>B505800E-1FAA-019B-B439-6C10878BD5EE</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="822DE971-DD0D-EDE9-B33F-2C1049D63123">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>96039409-4E5C-D94C-2673-07E6F158294A</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="6F2A856B-BC40-F250-5D63-243391E71078">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>900B36E7-4478-33A4-969C-7E3ABE5FD82E</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lugar" id="F7AB6485-78EA-9074-D088-C521E6EE825F">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>55B8EFE7-9E58-C226-AAB8-1B5185F893D4</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87265434-01A3-F0BE-F6EB-1D14472A5F37" name="Control_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>A3E2974D-FF90-C421-3FE7-27BD84AEF9A4</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="822DE971-DD0D-EDE9-B33F-2C1049D63123"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

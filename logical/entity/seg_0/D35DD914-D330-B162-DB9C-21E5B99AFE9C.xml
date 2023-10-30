@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D35DD914-D330-B162-DB9C-21E5B99AFE9C" name="Equipo">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 02:12:04 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="99B71053-DD29-CD25-B85F-B33C240040A9">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 02:16:08 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="603D170D-F2B5-DB44-2C8C-BF236D4E3080">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 02:16:23 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais" id="ED58380C-82E7-A62B-4347-3FD13ADC4882">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 02:16:49 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="goles" id="491C8C11-3FF1-6B7E-F09D-54C0795461FF">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 02:17:04 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="camiseta" id="10029B23-A6BE-A2A8-C9BF-F34658CF9B30">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 02:17:18 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B08455BB-E814-6A0E-A2B1-4ACFEDE3B755" name="Equipo PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 02:16:17 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>99B71053-DD29-CD25-B85F-B33C240040A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

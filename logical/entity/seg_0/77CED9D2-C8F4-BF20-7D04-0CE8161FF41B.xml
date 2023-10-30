@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77CED9D2-C8F4-BF20-7D04-0CE8161FF41B" name="Resultado">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 02:13:18 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="053DCD72-CD6E-F95A-68DC-B6D08EDE3FA1">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 02:26:05 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo1" id="9F6D98AE-05F5-6E8C-AF9C-8F0264948952">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:11:02 UTC</createdTime>
+<generatorID>31877605-4010-6387-24F5-3778306EF3BC</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<referedAttribute>43FD46B2-4690-5EFA-40B6-AD4BFD2014EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais" id="3E6F42F1-5C92-1F11-6C50-EE8FC2106D27">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:14:13 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="resultado" id="4AA515CB-050E-9711-9B17-ACAF889427D8">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:14:26 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3013D527-6216-861B-82B7-3BA72BAA020F" name="Resultado PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 02:26:25 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>053DCD72-CD6E-F95A-68DC-B6D08EDE3FA1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

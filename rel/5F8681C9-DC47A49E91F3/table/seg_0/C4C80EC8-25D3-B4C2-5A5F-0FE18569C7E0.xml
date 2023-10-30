@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4C80EC8-25D3-B4C2-5A5F-0FE18569C7E0" name="Arbitro">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>D5BEFB00-1E5D-8F31-5245-5D2E0747D5F8</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="A649E049-11FE-0430-53F4-BCDE248EFF7D">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>C06DD95F-07FC-A4C4-70DE-A428814E20E0</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="680F17CF-3168-5EEA-FD20-5DDD48BE1AC0">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>694184CF-4AB3-3B69-A9E7-539FBB658347</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="27153652-FB84-6ADD-9A6D-CF56F5C5D265">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>2912ED87-8D47-DD72-6972-07C53DF7B961</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Partido_codigo" id="A84C4CAA-02E0-4EB3-6904-A122E7B75C3A">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>AC3E833C-4385-7F90-CB3A-617AABCD85D3</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46F7D609-B9B5-2883-E129-FA15AB6C52F4" referredColumn="17D70D86-26DA-76EC-75C0-33C385A9F4D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CABA10E-A481-7987-61C8-E50F7EFD38E9" name="Arbitro_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>83565BDC-A5D4-9240-E3BB-E52002B43C8C</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A649E049-11FE-0430-53F4-BCDE248EFF7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8087447-AE2A-A560-A05F-EBB9FA94B79E" name="Arbitro_Partido_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<generatorID>4ACB973E-3A27-4936-9064-792DFFC911DF</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A84C4CAA-02E0-4EB3-6904-A122E7B75C3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

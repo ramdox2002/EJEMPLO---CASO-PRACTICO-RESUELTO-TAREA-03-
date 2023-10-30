@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F83199AE-522B-4CCF-8604-90A3DCF7070F" name="Resultado">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<generatorID>77CED9D2-C8F4-BF20-7D04-0CE8161FF41B</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="160738D7-D2E4-DF69-B51A-2CFF103356B7">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<generatorID>053DCD72-CD6E-F95A-68DC-B6D08EDE3FA1</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Partido_codigo" id="FF8378C5-AFD4-67E4-C56E-22671E287340">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<generatorID>9F6D98AE-05F5-6E8C-AF9C-8F0264948952</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85A2416D-8B0E-3391-C14D-3F9EB0283660" referredColumn="17D70D86-26DA-76EC-75C0-33C385A9F4D6"/>
+</associations>
+</Column>
+<Column name="pais" id="D97846D6-474B-AFCD-FCE3-7BB2F3A94153">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<generatorID>3E6F42F1-5C92-1F11-6C50-EE8FC2106D27</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resultado" id="1FC271B2-79B4-1723-7409-5F0262EEAF64">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<generatorID>4AA515CB-050E-9711-9B17-ACAF889427D8</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1B68BAA-136D-5BDA-8E55-4B29E00E0E7A" name="Resultado_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<generatorID>3013D527-6216-861B-82B7-3BA72BAA020F</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="160738D7-D2E4-DF69-B51A-2CFF103356B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81F207F7-2B58-E1D9-72B7-1A2A29F0ED93" name="Resultado__IDX">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>31877605-4010-6387-24F5-3778306EF3BC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FF8378C5-AFD4-67E4-C56E-22671E287340"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83A1614F-1F90-6D76-C896-1F2A5D294646" name="Resultado_Partido_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<generatorID>31877605-4010-6387-24F5-3778306EF3BC</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF8378C5-AFD4-67E4-C56E-22671E287340"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="068561E5-2963-A16C-469E-72E6A72D8C41" name="Hoteles">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>628071B7-740D-07C4-62E2-797AEFF788A9</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="42EEFC12-ABB7-0D3A-CB1E-749A2874A935">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>92D89E5F-AD37-80CF-3D47-0C975C24BFBC</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="98B65F15-5650-0458-E6C4-611F55277B30">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>46A69118-2664-2C55-1103-7B69B45E97B4</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="8285F805-F569-5623-9EC9-47E91F64DA88">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>923959E6-60BE-56B7-A543-414C8AB346F0</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="DAB34CD0-3FF0-C8D4-BF23-C61D1DE485DA">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>404F5E21-A7FE-4F3D-133E-371DC064259B</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="habitaciones" id="15BF7D2A-6804-3A8D-8505-A5300EFB9E63">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>F6D30377-A06E-6188-3E71-394E6284E6C7</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dias" id="81A24F65-3D42-CB3B-0494-F52ECD514CED">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>BC27892A-6A43-2CE8-6CAB-033CA77EFE12</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="A64E99D8-193F-8F09-FA7A-21DF49B2229D">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>23AA955C-FF72-52AB-1587-E697B31DFA4A</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DACE4EA9-861D-0359-3775-7CFCE4C1759A" name="Hoteles_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>397FB826-841A-AC6B-875C-BD6B5B0A98AB</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42EEFC12-ABB7-0D3A-CB1E-749A2874A935"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B505800E-1FAA-019B-B439-6C10878BD5EE" name="Control">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 02:13:31 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="96039409-4E5C-D94C-2673-07E6F158294A">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 02:30:36 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="900B36E7-4478-33A4-969C-7E3ABE5FD82E">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:13:06 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lugar" id="55B8EFE7-9E58-C226-AAB8-1B5185F893D4">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:13:17 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3E2974D-FF90-C421-3FE7-27BD84AEF9A4" name="Control PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 02:30:51 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<engineerTo>
+<item key="5F8681C9-AB8E-1A4A-2F8F-DC47A49E91F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>96039409-4E5C-D94C-2673-07E6F158294A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

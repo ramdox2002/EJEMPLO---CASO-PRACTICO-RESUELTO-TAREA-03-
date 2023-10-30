@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89339C61-BEBC-CA59-1C72-57B72DA5EFEE" name="Relation_5">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Control_codigo" id="50BFA5C7-3F8A-1EFF-3A01-A5934C8A1671">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26E5454C-5038-01A4-65CC-12E9BC4476B4" referredColumn="822DE971-DD0D-EDE9-B33F-2C1049D63123"/>
+</associations>
+</Column>
+<Column name="Jugador_codigo" id="599A0827-5FBD-A541-A2CC-1A12846CECB1">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD2D19E0-E041-11B0-FB0E-49F82AAE671D" referredColumn="8A0DA882-D98A-7545-24DC-F0E45D9F0AA0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDFA253E-5DDA-3836-A178-E3DD386F5C5A" name="Relation_5_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<ownerDesignName>Tarea03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50BFA5C7-3F8A-1EFF-3A01-A5934C8A1671"/>
+<colUsage columnID="599A0827-5FBD-A541-A2CC-1A12846CECB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E7AFD79-ED32-0BD0-F4FE-35CBE5D3C3A6" name="Relation_5_Control_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<generatorID>EB1FFA33-295F-D478-0B1D-9F204C0DA817</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50BFA5C7-3F8A-1EFF-3A01-A5934C8A1671"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CBDA1FD-CBF5-79DD-1C18-CA21E2AA6815" name="Relation_5_Jugador_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:59 UTC</createdTime>
+<generatorID>EB1FFA33-295F-D478-0B1D-9F204C0DA817</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="599A0827-5FBD-A541-A2CC-1A12846CECB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

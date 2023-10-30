@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4556D1FF-E07B-F1D3-85F4-0DD352EE2A52" name="Equipo">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>D35DD914-D330-B162-DB9C-21E5B99AFE9C</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="184DD08E-62A5-FE51-20D7-32E93CF93955">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>99B71053-DD29-CD25-B85F-B33C240040A9</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="17EA0964-E9F0-E10E-F4D0-22AD03E635D5">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>603D170D-F2B5-DB44-2C8C-BF236D4E3080</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="A476D0CA-0168-0267-8E47-7575DABDADE7">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>ED58380C-82E7-A62B-4347-3FD13ADC4882</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="goles" id="A349B91E-95A0-6C3D-ACD6-F8AED8FE1A50">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>491C8C11-3FF1-6B7E-F09D-54C0795461FF</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="camiseta" id="D14BA3EC-4E96-A273-0CA1-FA7B2C49934E">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>10029B23-A6BE-A2A8-C9BF-F34658CF9B30</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E78C7098-7940-9C04-E8CC-CF3722511361" name="Equipo_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2023-10-30 03:17:58 UTC</createdTime>
+<generatorID>B08455BB-E814-6A0E-A2B1-4ACFEDE3B755</generatorID>
+<ownerDesignName>Tarea03</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="184DD08E-62A5-FE51-20D7-32E93CF93955"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
